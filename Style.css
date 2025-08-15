@@ -1,4 +1,33 @@
-/* Centrar el formulario en la pantalla */
+/* estilos.css */
+.perfil-container {
+  max-width: 500px;
+  margin: 50px auto;
+  padding: 30px;
+  border: 1px solid #ccc;
+  border-radius: 10px;
+  background-color: #fff;
+  box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+.perfil-container h2 {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.perfil-container .btn {
+  display: block;
+  width: 100%;
+}
 .h2{
-text-align: center;
+    text-align: center;
+}
+
+/*home*/
+.home-section {
+  background: linear-gradient(rgba(0,0,0,0.4), rgba(0,0,0,0.4)),
+              url('https://www.upb.edu.co/es/imagenes/imgtipod-blgleyendosinseparador-megustarialeer-1464204951973.jpg') center/cover no-repeat;
+  color: white;
+  padding: 100px 20px;
+  text-align: center;
+  border-radius: 10px;
 }
